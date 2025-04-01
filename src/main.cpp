@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     int frameTime;
 
     game = new Game();
-    game->init("KyosunEngine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 640, false);
+    game->init("KyosunEngine", 800, 640, false);
 
     while (game->running()) 
     {
